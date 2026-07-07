@@ -52,6 +52,18 @@ def build_boards(txns: List[Dict[str, Any]], cfg: Dict[str, Any], today: dt.date
         for r in recent[:top_n]
     ]
 
+    # Most active members (by trade count) with their buy-bias in the window.
+    member_stats: Dict[str, Dict[str, Any]] = {}
+    for r in recent:
+        m = r.get("member") or "Unknown"
+        s = member_stats.setdefault(m, {"member": m, "chamber": r.get("chamber"), "trades": 0, "buys": 0, "sells": 0})
+        s["trades"] += 1
+        s["buys" if r["side"] == "buy" else "sells"] += 1
+    top_members = sorted(member_stats.values(), key=lambda s: -s["trades"])[:top_n]
+    for s in top_members:
+        tot = s["buys"] + s["sells"]
+        s["buy_bias"] = round(s["buys"] / tot, 2) if tot else None
+
     if not recent:
         status, notes = ("unavailable", "No congressional trades in the lookback window.") if not txns \
             else ("partial", "No disclosures within the lookback window (source reachable).")
@@ -64,6 +76,7 @@ def build_boards(txns: List[Dict[str, Any]], cfg: Dict[str, Any], today: dt.date
         "recent_count": len(recent),
         "recent": recent_out,
         "most_traded": most_traded,
+        "top_members": top_members,
         "by_ticker": by_ticker,
         "_status": status,
         "_notes": notes,
