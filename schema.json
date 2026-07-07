@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://arkenlabs.eu/contracts/feed.schema.json",
+  "title": "ArkenLabs satellite feed envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["service", "schema_version", "generated_at", "status", "ttl_hours", "data"],
+  "properties": {
+    "service": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "schema_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["active", "partial", "unavailable"] },
+    "ttl_hours": { "type": "number", "exclusiveMinimum": 0 },
+    "notes": { "type": "string" },
+    "data": { "type": "object" }
+  }
+}

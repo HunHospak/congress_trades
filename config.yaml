@@ -1,0 +1,13 @@
+service: congress_trades
+schema_version: "1.0"
+ttl_hours: 48
+
+# How many days back (by disclosure date) counts as "recent".
+lookback_days: 45
+top_n: 30
+
+# Free, keyless community datasets (House + Senate financial disclosures).
+house_url: "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"
+senate_url: "https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions.json"
+
+feed_url: "https://HunHospak.github.io/congress_trades/congress_trades.json"
