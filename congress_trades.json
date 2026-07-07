@@ -1,7 +1,7 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-07-07T12:14:02+00:00",
+  "generated_at": "2026-07-07T14:44:14+00:00",
   "status": "unavailable",
   "ttl_hours": 48,
   "data": {
@@ -10,6 +10,7 @@
     "recent_count": 0,
     "recent": [],
     "most_traded": [],
+    "top_members": [],
     "by_ticker": {},
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
