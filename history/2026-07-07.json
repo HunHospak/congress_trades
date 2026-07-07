@@ -1,7 +1,7 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-07-07T14:44:14+00:00",
+  "generated_at": "2026-07-07T23:16:15+00:00",
   "status": "unavailable",
   "ttl_hours": 48,
   "data": {
