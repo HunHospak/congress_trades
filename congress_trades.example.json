@@ -1,0 +1,68 @@
+{
+  "service": "congress_trades",
+  "schema_version": "1.0",
+  "generated_at": "2026-07-07T11:42:07+00:00",
+  "status": "active",
+  "ttl_hours": 48,
+  "data": {
+    "as_of": "2026-07-07",
+    "lookback_days": 45,
+    "recent_count": 3,
+    "recent": [
+      {
+        "ticker": "NVDA",
+        "member": "Rep A",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-07-02",
+        "disclosed_at": "2026-07-02"
+      },
+      {
+        "ticker": "NVDA",
+        "member": "Rep B",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-07-02",
+        "disclosed_at": "2026-07-02"
+      },
+      {
+        "ticker": "AAPL",
+        "member": "Sen E",
+        "chamber": "Senate",
+        "side": "buy",
+        "amount_range": "$50,001 - $100,000",
+        "traded_at": "2026-07-02",
+        "disclosed_at": "2026-07-02"
+      }
+    ],
+    "most_traded": [
+      {
+        "ticker": "NVDA",
+        "trades": 2,
+        "buys": 1,
+        "sells": 1
+      },
+      {
+        "ticker": "AAPL",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      }
+    ],
+    "by_ticker": {
+      "NVDA": {
+        "trades": 2,
+        "buys": 1,
+        "sells": 1
+      },
+      "AAPL": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      }
+    },
+    "disclaimer": "x"
+  }
+}
