@@ -10,7 +10,11 @@ from typing import Any, Dict, List
 
 import requests
 
-_HEADERS = {"User-Agent": "arkenlabs-congress-trades/1.0"}
+_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "application/json,text/plain,*/*",
+}
 
 
 def _fetch_json(url: str, timeout: float = 20.0) -> Any:
