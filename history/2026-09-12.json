@@ -1,11 +1,11 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-09-11T00:13:22+00:00",
+  "generated_at": "2026-09-12T00:20:51+00:00",
   "status": "unavailable",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-09-11",
+    "as_of": "2026-09-12",
     "lookback_days": 45,
     "recent_count": 0,
     "recent": [],
