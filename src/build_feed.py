@@ -1,4 +1,5 @@
 """Orchestration: ingest -> compute -> validate(schema) -> write out/."""
+
 from __future__ import annotations
 
 import datetime as dt
@@ -12,8 +13,8 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from providers import gather  # noqa: E402
-from compute import build_boards  # noqa: E402
+from providers import gather
+from compute import build_boards
 
 
 def load_config() -> dict:
@@ -26,10 +27,22 @@ def load_schema() -> dict:
 
 def build(cfg: dict) -> dict:
     raw = gather(cfg)
-    boards = build_boards(raw.get("txns", []), cfg, dt.date.today())
+    boards = build_boards(raw.get("txns", []), cfg, dt.datetime.now(dt.timezone.utc).date())
     status = boards.pop("_status")
     notes = boards.pop("_notes", None)
-    boards["disclaimer"] = "Congressional financial disclosures (public record). Informational only, not investment advice."
+    if raw.get("coverage"):
+        boards["source_coverage"] = raw["coverage"]
+        boards["source_errors"] = raw.get("source_errors", [])
+        coverage = raw["coverage"]
+        notes = (
+            f"Partial House-only sample: {coverage['reports_with_supported_stock_rows']}/"
+            f"{coverage['reports_attempted']} reports contained supported stock rows; "
+            "Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+        )
+        status = "partial" if raw.get("txns") else "unavailable"
+    boards["disclaimer"] = (
+        "Congressional financial disclosures (public record). Informational only, not investment advice."
+    )
 
     feed = {
         "service": cfg["service"],
@@ -50,7 +63,7 @@ def main() -> None:
     jsonschema.validate(feed, load_schema())
     out = ROOT / "out"
     (out / "history").mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(feed, indent=2)
+    payload = json.dumps(feed, indent=2, allow_nan=False)
     (out / "congress_trades.json").write_text(payload, encoding="utf-8")
     (out / "history" / f"{feed['data']['as_of']}.json").write_text(payload, encoding="utf-8")
     print(f"[congress_trades] status={feed['status']} recent={feed['data']['recent_count']}")

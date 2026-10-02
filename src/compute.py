@@ -1,4 +1,5 @@
 """Pure computation for congress_trades. No I/O, unit-testable."""
+
 from __future__ import annotations
 
 import datetime as dt
@@ -36,9 +37,12 @@ def build_boards(txns: List[Dict[str, Any]], cfg: Dict[str, Any], today: dt.date
 
     counts = Counter(r["ticker"] for r in recent)
     most_traded = [
-        {"ticker": tk, "trades": n,
-         "buys": sum(1 for r in recent if r["ticker"] == tk and r["side"] == "buy"),
-         "sells": sum(1 for r in recent if r["ticker"] == tk and r["side"] == "sell")}
+        {
+            "ticker": tk,
+            "trades": n,
+            "buys": sum(1 for r in recent if r["ticker"] == tk and r["side"] == "buy"),
+            "sells": sum(1 for r in recent if r["ticker"] == tk and r["side"] == "sell"),
+        }
         for tk, n in counts.most_common(top_n)
     ]
 
@@ -48,7 +52,10 @@ def build_boards(txns: List[Dict[str, Any]], cfg: Dict[str, Any], today: dt.date
         by_ticker[tk] = {"trades": n, "buys": buys, "sells": n - buys}
 
     recent_out = [
-        {k: r.get(k) for k in ("ticker", "member", "chamber", "side", "amount_range", "traded_at", "disclosed_at")}
+        {
+            k: r.get(k)
+            for k in ("ticker", "member", "chamber", "side", "amount_range", "traded_at", "disclosed_at", "source_url")
+        }
         for r in recent[:top_n]
     ]
 
@@ -65,8 +72,11 @@ def build_boards(txns: List[Dict[str, Any]], cfg: Dict[str, Any], today: dt.date
         s["buy_bias"] = round(s["buys"] / tot, 2) if tot else None
 
     if not recent:
-        status, notes = ("unavailable", "No congressional trades in the lookback window.") if not txns \
+        status, notes = (
+            ("unavailable", "No congressional trades in the lookback window.")
+            if not txns
             else ("partial", "No disclosures within the lookback window (source reachable).")
+        )
     else:
         status, notes = "active", None
 

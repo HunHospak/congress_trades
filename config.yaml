@@ -6,8 +6,11 @@ ttl_hours: 48
 lookback_days: 45
 top_n: 30
 
-# Free, keyless community datasets (House + Senate financial disclosures).
-house_url: "https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json"
-senate_url: "https://senate-stock-watcher-data.s3-us-west-2.amazonaws.com/aggregate/all_transactions.json"
+# Official, public House PTR index/PDFs. Former community S3 sources return 403.
+# This bounded sample is PARTIAL: Senate and unparseable/scanned PDFs are excluded.
+house_index_url: "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/{year}FD.zip"
+house_pdf_url: "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/{year}/{doc_id}.pdf"
+max_house_reports: 20
+source_timeout_seconds: 20
 
 feed_url: "https://HunHospak.github.io/congress_trades/congress_trades.json"
