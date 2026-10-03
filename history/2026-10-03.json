@@ -1,13 +1,13 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T14:22:36+00:00",
+  "generated_at": "2026-10-03T01:13:28+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-02",
+    "as_of": "2026-10-03",
     "lookback_days": 45,
-    "recent_count": 133,
+    "recent_count": 85,
     "recent": [
       {
         "ticker": "BSX",
@@ -318,12 +318,6 @@
         "sells": 6
       },
       {
-        "ticker": "BSX",
-        "trades": 4,
-        "buys": 1,
-        "sells": 3
-      },
-      {
         "ticker": "DVN",
         "trades": 4,
         "buys": 0,
@@ -340,6 +334,12 @@
         "trades": 4,
         "buys": 0,
         "sells": 4
+      },
+      {
+        "ticker": "BSX",
+        "trades": 3,
+        "buys": 0,
+        "sells": 3
       },
       {
         "ticker": "CL",
@@ -372,12 +372,6 @@
         "sells": 3
       },
       {
-        "ticker": "LAMR",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      {
         "ticker": "CDNS",
         "trades": 2,
         "buys": 0,
@@ -394,12 +388,6 @@
         "trades": 2,
         "buys": 0,
         "sells": 2
-      },
-      {
-        "ticker": "ETN",
-        "trades": 2,
-        "buys": 1,
-        "sells": 1
       },
       {
         "ticker": "EMR",
@@ -456,22 +444,10 @@
         "sells": 2
       },
       {
-        "ticker": "WMT",
-        "trades": 2,
-        "buys": 1,
-        "sells": 1
-      },
-      {
         "ticker": "PEP",
         "trades": 2,
         "buys": 2,
         "sells": 0
-      },
-      {
-        "ticker": "PHR",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
       },
       {
         "ticker": "RA",
@@ -490,6 +466,30 @@
         "trades": 1,
         "buys": 1,
         "sells": 0
+      },
+      {
+        "ticker": "KO",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CR",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CXT",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "ETN",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
       }
     ],
     "top_members": [
@@ -500,14 +500,6 @@
         "buys": 2,
         "sells": 77,
         "buy_bias": 0.03
-      },
-      {
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "trades": 48,
-        "buys": 27,
-        "sells": 21,
-        "buy_bias": 0.56
       },
       {
         "member": "Scott Scott Franklin",
@@ -528,8 +520,8 @@
     ],
     "by_ticker": {
       "BSX": {
-        "trades": 4,
-        "buys": 1,
+        "trades": 3,
+        "buys": 0,
         "sells": 3
       },
       "RA": {
@@ -588,8 +580,8 @@
         "sells": 4
       },
       "ETN": {
-        "trades": 2,
-        "buys": 1,
+        "trades": 1,
+        "buys": 0,
         "sells": 1
       },
       "ETV": {
@@ -733,8 +725,8 @@
         "sells": 2
       },
       "WMT": {
-        "trades": 2,
-        "buys": 1,
+        "trades": 1,
+        "buys": 0,
         "sells": 1
       },
       "JPM": {
@@ -756,227 +748,18 @@
         "trades": 1,
         "buys": 1,
         "sells": 0
-      },
-      "ATRC": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "KMX": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "CDW": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "CECO": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "NET": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "COHR": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "COIN": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CSGP": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "CCI": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "DLTR": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "DASH": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "DCO": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "EA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "FSV": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "GMED": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "GS": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "HMN": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "HLI": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "PODD": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "IBM": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "INTU": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "LAMR": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "META": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "MSFT": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "MOG.A": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "NEO": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "NKE": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "NVDA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "NXPI": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "PHR": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "PWR": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "SHAK": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "SKHY": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "SNOW": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "STRL": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "TSLA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "TXRH": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "TTD": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "TYL": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "VRSK": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "WPM": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "WDAY": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
       }
     },
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 49,
+      "reports_in_window": 48,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 4,
+      "reports_with_supported_stock_rows": 3,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
+      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -996,5 +779,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 4/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 3/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
