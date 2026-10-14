@@ -1,313 +1,313 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T03:04:00+00:00",
+  "generated_at": "2026-10-14T01:15:43+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-13",
+    "as_of": "2026-10-14",
     "lookback_days": 45,
-    "recent_count": 115,
+    "recent_count": 163,
     "recent": [
       {
-        "ticker": "CSCO",
-        "member": "Maria Elvira Salazar",
+        "ticker": "BCPC",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "BHE",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-01",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "BBIO",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-08",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "CSCO",
-        "member": "Maria Elvira Salazar",
+        "ticker": "AVGO",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-16",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "CINF",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "CTVA",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "CYTK",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "DECK",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "DPZ",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "EPAC",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-21",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "FSS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-21",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "FIS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "GTES",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "GMED",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-03",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "HALO",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "PODD",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "INTU",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-18",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "ITT",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "CSCO",
-        "member": "Maria Elvira Salazar",
+        "ticker": "ITT",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-21",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "MTSI",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-21",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "C",
-        "member": "Maria Elvira Salazar",
+        "ticker": "MTSI",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "MCHP",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-16",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "GLW",
-        "member": "Maria Elvira Salazar",
+        "ticker": "MOG.A",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "buy",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-08",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "GLW",
-        "member": "Maria Elvira Salazar",
+        "ticker": "NXPI",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-09",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "NXPI",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "buy",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-08",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "GLW",
-        "member": "Maria Elvira Salazar",
+        "ticker": "ON",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-28",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
+      },
+      {
+        "ticker": "OXM",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "GLW",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "GLW",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "DDOG",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "FDX",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "GE",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "GS",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "HONA",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "HON",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "IBM",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "IBM",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "MRVL",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "MRK",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "META",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "META",
-        "member": "Maria Elvira Salazar",
+        "ticker": "PRAX",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "buy",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-22",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-29",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "META",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-22",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "MSFT",
-        "member": "Maria Elvira Salazar",
+        "ticker": "PTC",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
         "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       },
       {
-        "ticker": "MRNA",
-        "member": "Maria Elvira Salazar",
+        "ticker": "RBC",
+        "member": "Gilbert Cisneros",
         "chamber": "House",
         "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "OKTA",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "OKTA",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "OKTA",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-04",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "PTON",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "RH",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
-      },
-      {
-        "ticker": "CRM",
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-24",
-        "disclosed_at": "2026-10-07",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf"
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-14",
+        "disclosed_at": "2026-10-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       }
     ],
     "most_traded": [
@@ -340,6 +340,18 @@
         "trades": 4,
         "buys": 0,
         "sells": 4
+      },
+      {
+        "ticker": "PTC",
+        "trades": 3,
+        "buys": 0,
+        "sells": 3
+      },
+      {
+        "ticker": "RVTY",
+        "trades": 3,
+        "buys": 0,
+        "sells": 3
       },
       {
         "ticker": "CSCO",
@@ -394,6 +406,30 @@
         "trades": 3,
         "buys": 0,
         "sells": 3
+      },
+      {
+        "ticker": "ITT",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "MTSI",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "NXPI",
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      {
+        "ticker": "STX",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
       },
       {
         "ticker": "HON",
@@ -454,42 +490,6 @@
         "trades": 2,
         "buys": 0,
         "sells": 2
-      },
-      {
-        "ticker": "NVO",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "OKE",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "ORLY",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "PTC",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "AIO",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "VUZI",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
       }
     ],
     "top_members": [
@@ -502,15 +502,246 @@
         "buy_bias": 0.03
       },
       {
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "trades": 45,
+        "buys": 22,
+        "sells": 23,
+        "buy_bias": 0.49
+      },
+      {
         "member": "Maria Elvira Salazar",
         "chamber": "House",
         "trades": 36,
         "buys": 8,
         "sells": 28,
         "buy_bias": 0.22
+      },
+      {
+        "member": "Lisa McClain",
+        "chamber": "House",
+        "trades": 3,
+        "buys": 2,
+        "sells": 1,
+        "buy_bias": 0.67
       }
     ],
     "by_ticker": {
+      "BCPC": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "BHE": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "BBIO": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "AVGO": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CINF": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CTVA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CYTK": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "DECK": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "DPZ": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "EPAC": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "FSS": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "FIS": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "GTES": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "GMED": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "HALO": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "PODD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "INTU": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "ITT": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "MTSI": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "MCHP": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "MOG.A": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "NXPI": {
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      "ON": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "OXM": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "PRAX": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "PTC": {
+        "trades": 3,
+        "buys": 0,
+        "sells": 3
+      },
+      "RBC": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "RVTY": {
+        "trades": 3,
+        "buys": 0,
+        "sells": 3
+      },
+      "SMTC": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "STAG": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "TSM": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "TNDM": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "TTD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "COCO": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "RARE": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "VZ": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "WDC": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "WUXIF": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "YETI": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "ZTS": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "OLN": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "STX": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "RIG": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
       "CSCO": {
         "trades": 3,
         "buys": 0,
@@ -781,20 +1012,10 @@
         "buys": 0,
         "sells": 1
       },
-      "PTC": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
       "ROK": {
         "trades": 3,
         "buys": 0,
         "sells": 3
-      },
-      "STX": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
       },
       "SBUX": {
         "trades": 1,
@@ -830,14 +1051,12 @@
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 50,
+      "reports_in_window": 53,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 2,
+      "reports_with_supported_stock_rows": 4,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
-      "no_supported_stock_rows",
-      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -857,5 +1076,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 2/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 4/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
