@@ -1,14 +1,144 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T01:15:43+00:00",
+  "generated_at": "2026-10-15T00:33:46+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-14",
+    "as_of": "2026-10-15",
     "lookback_days": 45,
-    "recent_count": 163,
+    "recent_count": 97,
     "recent": [
+      {
+        "ticker": "HD",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LIN",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LMT",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LMT",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LMT",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LMT",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "LOW",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "MRSH",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$50,001 - $100,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "MRSH",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$50,001 - $100,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "NEE",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "ROK",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-17",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "SBUX",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
+      {
+        "ticker": "UNH",
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-09-23",
+        "disclosed_at": "2026-10-13",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+      },
       {
         "ticker": "BCPC",
         "member": "Gilbert Cisneros",
@@ -178,145 +308,9 @@
         "traded_at": "2026-09-18",
         "disclosed_at": "2026-10-12",
         "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "ITT",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-29",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "ITT",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-21",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "MTSI",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-21",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "MTSI",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-29",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "MCHP",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-16",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "MOG.A",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-17",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "NXPI",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-09",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "NXPI",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-17",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "ON",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-28",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "OXM",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-29",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "PRAX",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-29",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "PTC",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-09-17",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
-      },
-      {
-        "ticker": "RBC",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$15,001 - $50,000",
-        "traded_at": "2026-09-14",
-        "disclosed_at": "2026-10-12",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035622.pdf"
       }
     ],
     "most_traded": [
-      {
-        "ticker": "HD",
-        "trades": 6,
-        "buys": 0,
-        "sells": 6
-      },
       {
         "ticker": "GLW",
         "trades": 5,
@@ -324,28 +318,10 @@
         "sells": 3
       },
       {
-        "ticker": "DVN",
+        "ticker": "LMT",
         "trades": 4,
         "buys": 0,
         "sells": 4
-      },
-      {
-        "ticker": "ITW",
-        "trades": 4,
-        "buys": 0,
-        "sells": 4
-      },
-      {
-        "ticker": "TJX",
-        "trades": 4,
-        "buys": 0,
-        "sells": 4
-      },
-      {
-        "ticker": "PTC",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
       },
       {
         "ticker": "RVTY",
@@ -378,34 +354,16 @@
         "sells": 1
       },
       {
-        "ticker": "BSX",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      {
-        "ticker": "CL",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      {
-        "ticker": "IQV",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      {
         "ticker": "MRSH",
-        "trades": 3,
+        "trades": 2,
         "buys": 0,
-        "sells": 3
+        "sells": 2
       },
       {
-        "ticker": "ROK",
-        "trades": 3,
+        "ticker": "UNH",
+        "trades": 2,
         "buys": 0,
-        "sells": 3
+        "sells": 2
       },
       {
         "ticker": "ITT",
@@ -426,81 +384,115 @@
         "sells": 0
       },
       {
-        "ticker": "STX",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "HON",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
         "ticker": "IBM",
         "trades": 2,
         "buys": 0,
         "sells": 2
       },
       {
-        "ticker": "UNH",
-        "trades": 2,
+        "ticker": "HD",
+        "trades": 1,
         "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "CDNS",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "CSX",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "DHR",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "EMR",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       {
         "ticker": "LIN",
-        "trades": 2,
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       {
-        "ticker": "LMT",
-        "trades": 2,
+        "ticker": "LOW",
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       {
         "ticker": "NEE",
-        "trades": 2,
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
+      },
+      {
+        "ticker": "ROK",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "SBUX",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "BCPC",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "BHE",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "BBIO",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "AVGO",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CINF",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CTVA",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CYTK",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "DECK",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "DPZ",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "EPAC",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "FSS",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
       }
     ],
     "top_members": [
-      {
-        "member": "Kevin Hern",
-        "chamber": "House",
-        "trades": 79,
-        "buys": 2,
-        "sells": 77,
-        "buy_bias": 0.03
-      },
       {
         "member": "Gilbert Cisneros",
         "chamber": "House",
@@ -518,6 +510,14 @@
         "buy_bias": 0.22
       },
       {
+        "member": "Kevin Hern",
+        "chamber": "House",
+        "trades": 13,
+        "buys": 0,
+        "sells": 13,
+        "buy_bias": 0.0
+      },
+      {
         "member": "Lisa McClain",
         "chamber": "House",
         "trades": 3,
@@ -527,6 +527,51 @@
       }
     ],
     "by_ticker": {
+      "HD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "LIN": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "LMT": {
+        "trades": 4,
+        "buys": 0,
+        "sells": 4
+      },
+      "LOW": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "MRSH": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "NEE": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "ROK": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "SBUX": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "UNH": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
       "BCPC": {
         "trades": 1,
         "buys": 1,
@@ -653,9 +698,9 @@
         "sells": 0
       },
       "PTC": {
-        "trades": 3,
+        "trades": 1,
         "buys": 0,
-        "sells": 3
+        "sells": 1
       },
       "RBC": {
         "trades": 1,
@@ -733,9 +778,9 @@
         "sells": 0
       },
       "STX": {
-        "trades": 2,
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       "RIG": {
         "trades": 1,
@@ -783,9 +828,9 @@
         "sells": 1
       },
       "HON": {
-        "trades": 2,
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       "IBM": {
         "trades": 2,
@@ -851,207 +896,12 @@
         "trades": 1,
         "buys": 0,
         "sells": 1
-      },
-      "UNH": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "BSX": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "RA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CDNS": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "CNP": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CB": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "KO": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "CL": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "CR": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CXT": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CSX": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "DHR": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "DVN": {
-        "trades": 4,
-        "buys": 0,
-        "sells": 4
-      },
-      "ETN": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "ETV": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "EMR": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "XOM": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "F": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "HD": {
-        "trades": 6,
-        "buys": 0,
-        "sells": 6
-      },
-      "ITW": {
-        "trades": 4,
-        "buys": 0,
-        "sells": 4
-      },
-      "IQV": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "LIN": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "LMT": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "LOW": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "MRSH": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "NEE": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "NVS": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "NVO": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "OKE": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "ORLY": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "PBA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "PRGS": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "ROK": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "SBUX": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "STE": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "TJX": {
-        "trades": 4,
-        "buys": 0,
-        "sells": 4
-      },
-      "AIO": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "VUZI": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "WMT": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
       }
     },
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 53,
+      "reports_in_window": 55,
       "reports_attempted": 20,
       "reports_with_supported_stock_rows": 4,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
