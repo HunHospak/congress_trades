@@ -1,11 +1,11 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T00:39:39+00:00",
+  "generated_at": "2026-10-22T00:42:45+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-21",
+    "as_of": "2026-10-22",
     "lookback_days": 45,
     "recent_count": 97,
     "recent": [
@@ -901,7 +901,7 @@
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 54,
+      "reports_in_window": 56,
       "reports_attempted": 20,
       "reports_with_supported_stock_rows": 4,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
