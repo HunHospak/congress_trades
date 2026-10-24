@@ -1,13 +1,13 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-23T00:42:39+00:00",
+  "generated_at": "2026-10-24T00:45:45+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-23",
+    "as_of": "2026-10-24",
     "lookback_days": 45,
-    "recent_count": 97,
+    "recent_count": 61,
     "recent": [
       {
         "ticker": "HD",
@@ -312,12 +312,6 @@
     ],
     "most_traded": [
       {
-        "ticker": "GLW",
-        "trades": 5,
-        "buys": 2,
-        "sells": 3
-      },
-      {
         "ticker": "LMT",
         "trades": 4,
         "buys": 0,
@@ -330,37 +324,7 @@
         "sells": 3
       },
       {
-        "ticker": "CSCO",
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      {
-        "ticker": "META",
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      {
-        "ticker": "OKTA",
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      {
-        "ticker": "SNOW",
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      {
         "ticker": "MRSH",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      {
-        "ticker": "UNH",
         "trades": 2,
         "buys": 0,
         "sells": 2
@@ -382,12 +346,6 @@
         "trades": 2,
         "buys": 2,
         "sells": 0
-      },
-      {
-        "ticker": "IBM",
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
       },
       {
         "ticker": "HD",
@@ -421,6 +379,12 @@
       },
       {
         "ticker": "SBUX",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "UNH",
         "trades": 1,
         "buys": 0,
         "sells": 1
@@ -490,6 +454,42 @@
         "trades": 1,
         "buys": 1,
         "sells": 0
+      },
+      {
+        "ticker": "FIS",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "GTES",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "GMED",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "HALO",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "PODD",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "INTU",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
       }
     ],
     "top_members": [
@@ -500,14 +500,6 @@
         "buys": 22,
         "sells": 23,
         "buy_bias": 0.49
-      },
-      {
-        "member": "Maria Elvira Salazar",
-        "chamber": "House",
-        "trades": 36,
-        "buys": 8,
-        "sells": 28,
-        "buy_bias": 0.22
       },
       {
         "member": "Kevin Hern",
@@ -568,9 +560,9 @@
         "sells": 1
       },
       "UNH": {
-        "trades": 2,
+        "trades": 1,
         "buys": 0,
-        "sells": 2
+        "sells": 1
       },
       "BCPC": {
         "trades": 1,
@@ -786,116 +778,6 @@
         "trades": 1,
         "buys": 1,
         "sells": 0
-      },
-      "CSCO": {
-        "trades": 3,
-        "buys": 0,
-        "sells": 3
-      },
-      "C": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "GLW": {
-        "trades": 5,
-        "buys": 2,
-        "sells": 3
-      },
-      "DDOG": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "FDX": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "GE": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "GS": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "HONA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "HON": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "IBM": {
-        "trades": 2,
-        "buys": 0,
-        "sells": 2
-      },
-      "MRVL": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "MRK": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "META": {
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      "MSFT": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "MRNA": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "OKTA": {
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      "PTON": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "RH": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "CRM": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "SNOW": {
-        "trades": 3,
-        "buys": 2,
-        "sells": 1
-      },
-      "SPCX": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "URI": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
       }
     },
     "source_coverage": {
@@ -903,10 +785,11 @@
       "Senate": "unavailable",
       "reports_in_window": 56,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 4,
+      "reports_with_supported_stock_rows": 3,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
+      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -926,5 +809,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 4/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 3/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
