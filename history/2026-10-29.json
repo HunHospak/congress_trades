@@ -1,0 +1,551 @@
+{
+  "service": "congress_trades",
+  "schema_version": "1.0",
+  "generated_at": "2026-10-29T01:50:45+00:00",
+  "status": "partial",
+  "ttl_hours": 48,
+  "data": {
+    "as_of": "2026-10-29",
+    "lookback_days": 45,
+    "recent_count": 25,
+    "recent": [
+      {
+        "ticker": "CVX",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-14",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "CMG",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "COST",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$250,001 - $500,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "COST",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$100,001 - $250,000",
+        "traded_at": "2026-10-13",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "XOM",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-14",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "HD",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-22",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "HON",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-01",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "IBM",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "LOW",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-22",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "MA",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "MCD",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "MCD",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-27",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "MSFT",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$250,001 - $500,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "NVDA",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "PEP",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-21",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "PG",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-08",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "REZI",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$344.99",
+        "traded_at": "2026-10-21",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "SOLS",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-21",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "SBUX",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "TSLA",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "TJX",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "TJX",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "VZ",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "V",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$15,001 - $50,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      },
+      {
+        "ticker": "WMT",
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$50,001 - $100,000",
+        "traded_at": "2026-10-02",
+        "disclosed_at": "2026-10-27",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035563.pdf"
+      }
+    ],
+    "most_traded": [
+      {
+        "ticker": "COST",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "MCD",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "TJX",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "CVX",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CMG",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "XOM",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "HD",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "HON",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "IBM",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "LOW",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "MA",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "MSFT",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "NVDA",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "PEP",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "PG",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "REZI",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "SOLS",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "SBUX",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "TSLA",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "VZ",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "V",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "WMT",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      }
+    ],
+    "top_members": [
+      {
+        "member": "Pete Sessions",
+        "chamber": "House",
+        "trades": 25,
+        "buys": 0,
+        "sells": 25,
+        "buy_bias": 0.0
+      }
+    ],
+    "by_ticker": {
+      "CVX": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CMG": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "COST": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "XOM": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "HD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "HON": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "IBM": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "LOW": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "MA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "MCD": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "MSFT": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "NVDA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "PEP": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "PG": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "REZI": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "SOLS": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "SBUX": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "TSLA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "TJX": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "VZ": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "V": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "WMT": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      }
+    },
+    "source_coverage": {
+      "House": "official_public_PTR_PDF_sample",
+      "Senate": "unavailable",
+      "reports_in_window": 53,
+      "reports_attempted": 20,
+      "reports_with_supported_stock_rows": 1,
+      "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
+    },
+    "source_errors": [
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows"
+    ],
+    "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
+  },
+  "notes": "Partial House-only sample: 1/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+}
