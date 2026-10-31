@@ -1,14 +1,34 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T01:59:35+00:00",
+  "generated_at": "2026-10-31T01:37:29+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-10-30",
+    "as_of": "2026-10-31",
     "lookback_days": 45,
-    "recent_count": 25,
+    "recent_count": 27,
     "recent": [
+      {
+        "ticker": "RPM",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-15",
+        "disclosed_at": "2026-10-29",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+      },
+      {
+        "ticker": "V",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-15",
+        "disclosed_at": "2026-10-29",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035727.pdf"
+      },
       {
         "ticker": "CVX",
         "member": "Pete Sessions",
@@ -262,6 +282,12 @@
     ],
     "most_traded": [
       {
+        "ticker": "V",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
         "ticker": "COST",
         "trades": 2,
         "buys": 0,
@@ -278,6 +304,12 @@
         "trades": 2,
         "buys": 0,
         "sells": 2
+      },
+      {
+        "ticker": "RPM",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
       },
       {
         "ticker": "CVX",
@@ -382,12 +414,6 @@
         "sells": 1
       },
       {
-        "ticker": "V",
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      {
         "ticker": "WMT",
         "trades": 1,
         "buys": 0,
@@ -402,9 +428,27 @@
         "buys": 0,
         "sells": 25,
         "buy_bias": 0.0
+      },
+      {
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "trades": 2,
+        "buys": 1,
+        "sells": 1,
+        "buy_bias": 0.5
       }
     ],
     "by_ticker": {
+      "RPM": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "V": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
       "CVX": {
         "trades": 1,
         "buys": 0,
@@ -505,11 +549,6 @@
         "buys": 0,
         "sells": 1
       },
-      "V": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
       "WMT": {
         "trades": 1,
         "buys": 0,
@@ -521,11 +560,10 @@
       "Senate": "unavailable",
       "reports_in_window": 54,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 1,
+      "reports_with_supported_stock_rows": 2,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
-      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -547,5 +585,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 1/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 2/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
