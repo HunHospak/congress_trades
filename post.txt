@@ -1,5 +1,8 @@
-Congress trades — last 45d (2026-11-11)
+Congress trades — last 45d (2026-11-12)
 Most-traded by members:
-  RPM  1 trades  (1B/0S)
-  V  1 trades  (0B/1S)
+  BBIO  2 trades  (2B/0S)
+  LNTH  2 trades  (0B/2S)
+  STRC  2 trades  (1B/1S)
+  TOELF  2 trades  (0B/2S)
+  ARGX  1 trades  (1B/0S)
 Public disclosures · not investment advice · arkenlabs.eu

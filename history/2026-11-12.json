@@ -1,0 +1,791 @@
+{
+  "service": "congress_trades",
+  "schema_version": "1.0",
+  "generated_at": "2026-11-12T03:05:46+00:00",
+  "status": "partial",
+  "ttl_hours": 48,
+  "data": {
+    "as_of": "2026-11-12",
+    "lookback_days": 45,
+    "recent_count": 53,
+    "recent": [
+      {
+        "ticker": "ARGX",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-27",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "BNS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-09",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "BNPQF",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-13",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "BBIO",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-27",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "BBIO",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-02",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CF",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CMG",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CIEN",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-21",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CINF",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CSCO",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CMS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CMCSA",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "CTVA",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-14",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "EIX",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "LLY",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "ENGQF",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-13",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "FIS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "FOXA",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "GIS",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "HD",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-06",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "ILMN",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-27",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "PODD",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "LNTH",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-15",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "LNTH",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-14",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "LITE",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "MTSI",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-27",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "META",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-09",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "MICR",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-21",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "MBGL",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$50,001 - $100,000",
+        "traded_at": "2026-10-15",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      },
+      {
+        "ticker": "MRNA",
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-10-20",
+        "disclosed_at": "2026-11-10",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
+      }
+    ],
+    "most_traded": [
+      {
+        "ticker": "BBIO",
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      {
+        "ticker": "LNTH",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "STRC",
+        "trades": 2,
+        "buys": 1,
+        "sells": 1
+      },
+      {
+        "ticker": "TOELF",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "ARGX",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "BNS",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "BNPQF",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CF",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CMG",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CIEN",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CINF",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "CSCO",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CMS",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CMCSA",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "CTVA",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "EIX",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "LLY",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "ENGQF",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "FIS",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "FOXA",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "GIS",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "HD",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "ILMN",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "PODD",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "LITE",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "MTSI",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "META",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "MICR",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      {
+        "ticker": "MBGL",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "MRNA",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      }
+    ],
+    "top_members": [
+      {
+        "member": "Gilbert Cisneros",
+        "chamber": "House",
+        "trades": 51,
+        "buys": 27,
+        "sells": 24,
+        "buy_bias": 0.53
+      },
+      {
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "trades": 2,
+        "buys": 1,
+        "sells": 1,
+        "buy_bias": 0.5
+      }
+    ],
+    "by_ticker": {
+      "ARGX": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "BNS": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "BNPQF": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "BBIO": {
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      "CF": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CMG": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CIEN": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CINF": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "CSCO": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CMS": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CMCSA": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CTVA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "EIX": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "LLY": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "ENGQF": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "FIS": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "FOXA": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "GIS": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "HD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "ILMN": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "PODD": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "LNTH": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "LITE": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "MTSI": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "META": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "MICR": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "MBGL": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "MRNA": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "MRAAF": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "NVDA": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "ON": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "PTC": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "O": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "RVTY": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "NOW": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "SNEJF": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "SARO": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "STRC": {
+        "trades": 2,
+        "buys": 1,
+        "sells": 1
+      },
+      "TXRH": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "CPB": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "COO": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "TTD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "TKO": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "TOELF": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "UBER": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "WBD": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "WFC": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "RPM": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "V": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      }
+    },
+    "source_coverage": {
+      "House": "official_public_PTR_PDF_sample",
+      "Senate": "unavailable",
+      "reports_in_window": 62,
+      "reports_attempted": 20,
+      "reports_with_supported_stock_rows": 2,
+      "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
+    },
+    "source_errors": [
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows",
+      "no_supported_stock_rows"
+    ],
+    "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
+  },
+  "notes": "Partial House-only sample: 2/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+}
