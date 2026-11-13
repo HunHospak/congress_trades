@@ -1,13 +1,13 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-11-12T03:05:46+00:00",
+  "generated_at": "2026-11-13T02:39:42+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-11-12",
+    "as_of": "2026-11-13",
     "lookback_days": 45,
-    "recent_count": 53,
+    "recent_count": 51,
     "recent": [
       {
         "ticker": "ARGX",
@@ -500,14 +500,6 @@
         "buys": 27,
         "sells": 24,
         "buy_bias": 0.53
-      },
-      {
-        "member": "David J. Taylor",
-        "chamber": "House",
-        "trades": 2,
-        "buys": 1,
-        "sells": 1,
-        "buy_bias": 0.5
       }
     ],
     "by_ticker": {
@@ -745,27 +737,18 @@
         "trades": 1,
         "buys": 1,
         "sells": 0
-      },
-      "RPM": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      "V": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
       }
     },
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 62,
+      "reports_in_window": 64,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 2,
+      "reports_with_supported_stock_rows": 1,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
+      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -787,5 +770,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 2/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 1/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
