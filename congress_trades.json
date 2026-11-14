@@ -1,14 +1,144 @@
 {
   "service": "congress_trades",
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T02:39:42+00:00",
+  "generated_at": "2026-11-14T02:28:41+00:00",
   "status": "partial",
   "ttl_hours": 48,
   "data": {
-    "as_of": "2026-11-13",
+    "as_of": "2026-11-14",
     "lookback_days": 45,
-    "recent_count": 51,
+    "recent_count": 64,
     "recent": [
+      {
+        "ticker": "AVGO",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-05",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "ETN",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "ETN",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "LLY",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "LLY",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "HD",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-05",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "IBP",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "KR",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "KR",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "LRCX",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "buy",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-05",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "PG",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-05",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "V",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
+      {
+        "ticker": "V",
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "side": "sell",
+        "amount_range": "$1,001 - $15,000",
+        "traded_at": "2026-11-03",
+        "disclosed_at": "2026-11-12",
+        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035831.pdf"
+      },
       {
         "ticker": "ARGX",
         "member": "Gilbert Cisneros",
@@ -178,139 +308,39 @@
         "traded_at": "2026-10-20",
         "disclosed_at": "2026-11-10",
         "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "FOXA",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-20",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "GIS",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-20",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "HD",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-06",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "ILMN",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-27",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "PODD",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-20",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "LNTH",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-15",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "LNTH",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-14",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "LITE",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-20",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "MTSI",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-27",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "META",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-09",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "MICR",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "sell",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-21",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "MBGL",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$50,001 - $100,000",
-        "traded_at": "2026-10-15",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
-      },
-      {
-        "ticker": "MRNA",
-        "member": "Gilbert Cisneros",
-        "chamber": "House",
-        "side": "buy",
-        "amount_range": "$1,001 - $15,000",
-        "traded_at": "2026-10-20",
-        "disclosed_at": "2026-11-10",
-        "source_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035788.pdf"
       }
     ],
     "most_traded": [
+      {
+        "ticker": "LLY",
+        "trades": 3,
+        "buys": 1,
+        "sells": 2
+      },
+      {
+        "ticker": "ETN",
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      {
+        "ticker": "HD",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "KR",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      {
+        "ticker": "V",
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
       {
         "ticker": "BBIO",
         "trades": 2,
@@ -334,6 +364,30 @@
         "trades": 2,
         "buys": 0,
         "sells": 2
+      },
+      {
+        "ticker": "AVGO",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "IBP",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "LRCX",
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      {
+        "ticker": "PG",
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
       },
       {
         "ticker": "ARGX",
@@ -408,12 +462,6 @@
         "sells": 0
       },
       {
-        "ticker": "LLY",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
         "ticker": "ENGQF",
         "trades": 1,
         "buys": 0,
@@ -438,58 +486,10 @@
         "sells": 1
       },
       {
-        "ticker": "HD",
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      {
         "ticker": "ILMN",
         "trades": 1,
         "buys": 0,
         "sells": 1
-      },
-      {
-        "ticker": "PODD",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
-        "ticker": "LITE",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
-        "ticker": "MTSI",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
-        "ticker": "META",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
-        "ticker": "MICR",
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      {
-        "ticker": "MBGL",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
-      {
-        "ticker": "MRNA",
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
       }
     ],
     "top_members": [
@@ -500,9 +500,62 @@
         "buys": 27,
         "sells": 24,
         "buy_bias": 0.53
+      },
+      {
+        "member": "David J. Taylor",
+        "chamber": "House",
+        "trades": 13,
+        "buys": 5,
+        "sells": 8,
+        "buy_bias": 0.38
       }
     ],
     "by_ticker": {
+      "AVGO": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "ETN": {
+        "trades": 2,
+        "buys": 2,
+        "sells": 0
+      },
+      "LLY": {
+        "trades": 3,
+        "buys": 1,
+        "sells": 2
+      },
+      "HD": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "IBP": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "KR": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
+      "LRCX": {
+        "trades": 1,
+        "buys": 1,
+        "sells": 0
+      },
+      "PG": {
+        "trades": 1,
+        "buys": 0,
+        "sells": 1
+      },
+      "V": {
+        "trades": 2,
+        "buys": 0,
+        "sells": 2
+      },
       "ARGX": {
         "trades": 1,
         "buys": 1,
@@ -568,11 +621,6 @@
         "buys": 1,
         "sells": 0
       },
-      "LLY": {
-        "trades": 1,
-        "buys": 1,
-        "sells": 0
-      },
       "ENGQF": {
         "trades": 1,
         "buys": 0,
@@ -589,11 +637,6 @@
         "sells": 0
       },
       "GIS": {
-        "trades": 1,
-        "buys": 0,
-        "sells": 1
-      },
-      "HD": {
         "trades": 1,
         "buys": 0,
         "sells": 1
@@ -742,13 +785,12 @@
     "source_coverage": {
       "House": "official_public_PTR_PDF_sample",
       "Senate": "unavailable",
-      "reports_in_window": 64,
+      "reports_in_window": 65,
       "reports_attempted": 20,
-      "reports_with_supported_stock_rows": 1,
+      "reports_with_supported_stock_rows": 2,
       "methodology": "Latest bounded House PTR sample; explicit stock tickers only. Scanned/unsupported rows excluded; amendments may repeat transactions."
     },
     "source_errors": [
-      "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
       "no_supported_stock_rows",
@@ -770,5 +812,5 @@
     ],
     "disclaimer": "Congressional financial disclosures (public record). Informational only, not investment advice."
   },
-  "notes": "Partial House-only sample: 1/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
+  "notes": "Partial House-only sample: 2/20 reports contained supported stock rows; Senate/scanned or unsupported rows excluded. Amendments may repeat transactions."
 }
