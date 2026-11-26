@@ -7,6 +7,7 @@ empty list so build_feed emits a graceful status.
 
 from __future__ import annotations
 
+from datetime import date
 from typing import Any, Dict, List
 
 import requests
@@ -79,11 +80,11 @@ def normalize_senate(rec: Dict[str, Any]) -> Dict[str, Any] | None:
     }
 
 
-def gather(cfg: Dict[str, Any]) -> Dict[str, Any]:
+def gather(cfg: Dict[str, Any], *, today: date | None = None) -> Dict[str, Any]:
     if cfg.get("house_index_url"):
         from official_house import gather as gather_official_house
 
-        return gather_official_house(cfg)
+        return gather_official_house(cfg, today=today)
     txns: List[Dict[str, Any]] = []
     house = _fetch_json(cfg["house_url"])
     if isinstance(house, list):

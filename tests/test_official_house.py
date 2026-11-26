@@ -79,8 +79,13 @@ class OfficialHouseTests(unittest.TestCase):
                 "Senate": "unavailable",
             },
         }
-        cfg = {"service": "congress_trades", "schema_version": "1.0", "ttl_hours": 48}
-        with patch.object(build_feed, "gather", return_value=raw) as gather:
+        cfg = {
+            "service": "congress_trades",
+            "schema_version": "1.0",
+            "ttl_hours": 48,
+            "house_index_url": "https://example/{year}",
+        }
+        with patch.object(house, "gather", return_value=raw) as gather:
             feed = build_feed.build(cfg, generated_at=dt.datetime(2026, 10, 2, 12, tzinfo=dt.timezone.utc))
         gather.assert_called_once_with(cfg, today=dt.date(2026, 10, 2))
         self.assertEqual(feed["status"], "partial")
