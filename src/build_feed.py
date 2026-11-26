@@ -25,9 +25,10 @@ def load_schema() -> dict:
     return json.loads((ROOT / "schema.json").read_text(encoding="utf-8"))
 
 
-def build(cfg: dict) -> dict:
-    raw = gather(cfg)
-    boards = build_boards(raw.get("txns", []), cfg, dt.datetime.now(dt.timezone.utc).date())
+def build(cfg: dict, *, generated_at: dt.datetime | None = None) -> dict:
+    run_time = generated_at or dt.datetime.now(dt.timezone.utc)
+    raw = gather(cfg, today=run_time.date())
+    boards = build_boards(raw.get("txns", []), cfg, run_time.date())
     status = boards.pop("_status")
     notes = boards.pop("_notes", None)
     if raw.get("coverage"):
@@ -47,7 +48,7 @@ def build(cfg: dict) -> dict:
     feed = {
         "service": cfg["service"],
         "schema_version": str(cfg["schema_version"]),
-        "generated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
+        "generated_at": run_time.replace(microsecond=0).isoformat(),
         "status": status,
         "ttl_hours": cfg["ttl_hours"],
         "data": boards,

@@ -53,6 +53,13 @@ class OfficialHouseTests(unittest.TestCase):
         unknown = ROW.replace("(AAPL) [ST]", "Unknown stock")
         self.assertEqual(len(house.parse_layout(unknown + "\n\n" + ROW, REPORT, URL)), 1)
 
+    def test_unsupported_following_transaction_cannot_supply_a_ticker(self):
+        purchase = ROW.replace("Apple Inc. (AAPL) [ST]", "Unidentified stock")
+        for day in ("09/01/2026", "9/1/2026"):
+            with self.subTest(day=day):
+                exchange = ROW.replace(" P ", " E ").replace("09/01/2026", day)
+                self.assertEqual(house.parse_layout(purchase + "\n" + exchange, REPORT, URL), [])
+
     def test_index_failure_never_fabricates_trades(self):
         with patch.object(house, "_download", side_effect=house.requests.ConnectionError):
             result = house.gather(
@@ -72,8 +79,10 @@ class OfficialHouseTests(unittest.TestCase):
                 "Senate": "unavailable",
             },
         }
-        with patch.object(build_feed, "gather", return_value=raw):
-            feed = build_feed.build({"service": "congress_trades", "schema_version": "1.0", "ttl_hours": 48})
+        cfg = {"service": "congress_trades", "schema_version": "1.0", "ttl_hours": 48}
+        with patch.object(build_feed, "gather", return_value=raw) as gather:
+            feed = build_feed.build(cfg, generated_at=dt.datetime(2026, 10, 2, 12, tzinfo=dt.timezone.utc))
+        gather.assert_called_once_with(cfg, today=dt.date(2026, 10, 2))
         self.assertEqual(feed["status"], "partial")
         self.assertIn("Senate", feed["notes"])
         self.assertEqual(feed["data"]["recent"][0]["source_url"], URL)

@@ -23,6 +23,7 @@ _LOG = logging.getLogger(__name__)
 _HEADERS = {"User-Agent": "ArkenLabs-congress-disclosures/1.0 (+https://arkenlabs.eu)"}
 _MAX_BYTES = 8_000_000
 _ROW = re.compile(r"\b(P|S(?:\s*\(partial\))?)\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\$[\d,]+[^\n]*)")
+_TRANSACTION_COLUMNS = re.compile(r"\b\d{1,2}/\d{1,2}/\d{4}\s+\d{1,2}/\d{1,2}/\d{4}\s+\$")
 _TICKER = re.compile(r"\(([A-Z][A-Z0-9.\-]{0,7})\)\s*\[ST\]")
 
 
@@ -62,7 +63,7 @@ def parse_layout(text: str, report: dict[str, str], source_url: str) -> list[dic
             continue
         asset = [line[: match.start()]]
         for following in lines[index + 1 : index + 4]:
-            if not following.strip() or _ROW.search(following) or following.lstrip().startswith("ID "):
+            if not following.strip() or _TRANSACTION_COLUMNS.search(following) or following.lstrip().startswith("ID "):
                 break
             # Only the asset cell, not the amount / date columns.
             asset.append(following[: match.start()])
